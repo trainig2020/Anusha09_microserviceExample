@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: department-info-service
+  profiles: 
+    active:
+    - development

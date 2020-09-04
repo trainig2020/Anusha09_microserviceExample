@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dep-emp-crud
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+server:
+  port: 8085
